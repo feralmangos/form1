@@ -1,0 +1,316 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background: #44a284;
+    height: auto;
+    width: 100%;
+    padding: 20px 0px 10px 20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+h1 {
+    font-size: 265%;
+    font-weight: bolder;
+    line-height: 0px;
+}
+
+.header h2 {
+    font-size: 150%;
+    font-weight: lighter;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+}
+
+.div2 {
+    width: 70%;
+    height: auto;
+}
+
+.div3 {
+    display: flex;
+    width: 30%;
+    height: auto;
+    flex-direction: column;
+}
+
+.form1 {
+    display: flex;
+    width: 100%;
+    height: auto;
+    font-weight: bolder;
+}
+
+.box1 {
+    width: 50%;
+    height: auto;
+    flex-direction: column;
+}
+
+.box2 {
+    width: 50%;
+    height: auto;
+}
+
+.box1a {
+    width: 100%;
+    height: auto;
+    padding: 20px 10px 0px 20px;
+}
+
+.box1b {
+    width: 100%;
+    height: auto;
+    padding: 20px 10px 0px 20px;
+}
+
+.box2a {
+    width: 100%;
+    height: auto;
+    padding: 20px 10px 0px 20px;
+}
+
+.box2b {
+    width: 100%;
+    height: auto;
+    padding: 20px 10px 0px 20px;
+}
+
+.client-information {
+    width: 100%;
+    height: auto;
+    padding: 10px 0px 0px 20px;
+    font-size: 120%;
+    line-height: 0px;
+}
+
+.checkbox {
+    width: 100%;
+    padding: 20px 10px 0px 20px;
+}
+
+.box3 {
+    display: flex;
+    flex-direction: row;
+    font-weight: bolder;
+}
+
+.box3a {
+    width: 50%;
+    padding: 5px 10px 0px 20px;
+}
+
+.box3b {
+    width: 50%;
+    height: 150px;
+    padding: 5px 10px 0px 20px;
+}
+
+.firstname input {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 50px;
+    padding-left: 10px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.firstnamelabel::after {
+    content: " *";
+    color: red;
+}
+
+.box3a h3 {
+    color: grey;
+}
+
+.box3b p {
+    color: grey;
+}
+
+.email input {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 50px;
+    padding-left: 10px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.phonelabel::after {
+    content: " *";
+    color: red;
+}
+
+.lastnamelabel::after {
+    content: " *";
+    color: red;
+}
+
+.lastname input {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 50px;
+    padding-left: 10px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.phone input {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 50px;
+    padding-left: 10px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.dateandtime {
+    line-height: 0px;
+    width: 100%;
+    height: auto;
+    font-size: 120%;
+    padding: 5px 0px 0px 20px;
+}
+
+.date input {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    padding-left: 10px;
+    height: 50px;
+    margin-top: 10px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.time input {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    padding-left: 10px;
+    height: 50px;
+    margin-top: 10px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.appointment {
+    width: 100%;
+    height: auto;
+    font-size: 120%;
+    padding: 0px 0px 5px 20px;
+    line-height: 0px;
+}
+
+textarea {
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.commentary-box {
+    width: 100%;
+    height: auto;
+    font-size: 90%;
+    padding: 10px 10px 0px 20px;
+}
+
+.submit-button {
+    display: flex;
+    width: 100%;
+    height: auto;
+    font-size: 90%;
+    padding: 20px 10px 0px 20px;
+    justify-content: space-around;
+}
+
+button {
+    width: 100%;
+    height: 60px;
+    background: #009999;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border-style: none;
+}
+
+.div3a {
+    background-color: #fef8d2;
+    height: auto;
+    width: 90%;
+    margin: 30px 20px 5px 20px;
+    border-radius: 10px;
+}
+
+.div3b {
+    background-color: #f4f6f7;
+    height: 100%;
+    width: 90%;
+    margin: 20px 20px 0px 20px;
+    border-radius: 25px;
+}
+
+.ea {
+    border-left: 5px solid red;
+}
+
+.ea h2 {
+    padding: 0px 20px 0px 20px;
+}
+
+.eatext {
+    padding: 0px 25px 0px 25px;
+    font-size: 120%;
+}
+
+img {
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.imgdr {
+    margin: 35px auto;
+    margin-bottom: 0px !important;
+    width: 70%;
+    height: 50%;
+}
+
+.doc-info {
+    height: 50%;
+    padding: 0px 25px 0px 25px;
+}
+
+.doc-info h2 {
+    font-size: 200%;
+}
+
+.doc-info p {
+    margin-top: 25px;
+    font-size: 120%;
+    color: grey;
+}
+
+.form {
+    padding-top: 10px;
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <header>
+            <div class="drname">
+                <h1>Dr. Gastón Medici</h1>
+            </div>
+            <div class="req-appointment">
+                <h2>Request an Appointment</h2>
+            </div>
+        </header>
+    </div>
+    <div class="form">
+        <form action="">
+            <div class="div1">
+                <div class="div2">
+                    <div class="client-information">
+                        <h2>Client Information</h2>
+                    </div>
+                    <div class="form1">
+
+                        <div class="box1">
+                            <div class="box1a">
+                                <div class="firstnamelabel"><label for="firstname">First Name</label></div>
+                                <div class="firstname"><input type="text" name="firstname" id="firstname" placeholder="Write your First Name here" required> </div>
+                            </div>
+                            <div class="box1b">
+                                <div class="emaillabel"><label for="email">Email Address</label></div>
+                                <div class="email"><input type="email" name="email" id="email" placeholder="Write your Email Address here" required> </div>
+                            </div>
+                        </div>
+                        <div class="box2">
+                            <div class="box2a">
+                                <div class="lastnamelabel"><label for="lastname">Last Name</label></div>
+                                <div class="lastname"><input type="text" name="lastname" id="lastname" placeholder="Write your Last Name here" required> </div>
+
+                            </div>
+                            <div class="box2b">
+                                <div class="phonelabel"><label for="phone">Phone Number</label></div>
+                                <div class="phone"><input type="tel" name="phone" id="phone" placeholder="Write your Phone Number here"> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="checkbox">
+                        <div>
+                            <input type="checkbox" id="checkbox" name="checkbox" value="I'm already a Roger's Family Therapy Client"> I'm already a Medici's Family Therapy Client
+                        </div>
+
+                    </div>
+                    <div class="dateandtime">
+                        <h2>Date & Time</h2>
+                    </div>
+                    <div class="box3">
+                        <div class="box3a">
+                            <div class="datelabel"><label for="datetime">Date</label></div>
+                            <div class="date"><input type="date" name="date" id="date" required> </div>
+                            <div>
+                                <h3>I'm available every Monday to Friday,excluding holidays</h3>
+                            </div>
+                        </div>
+                        <div class="box3b">
+                            <div class="timelabel"><label for="datetime">Time</label></div>
+                            <div class="time"><input type="time" name="time" id="time" required> </div>
+                            <div>
+                                <p>My appointments are 45 minutes, and start on the hour from 9 AM to 4PM.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="appointment">
+                        <h2>About your Appointment</h2>
+                    </div>
+                    <div class="commentary-box">
+                        <textarea name="commentary" id="commentary" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <div class="submit-button">
+                            <button type="submit">SEND</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="div3">
+                    <div class="div3a">
+                        <div class="ea">
+                            <h2>Emergency Assistance</h2>
+                        </div>
+                        <div class="eatext">
+                            <p>
+                                <p>If this is an emergency,</p>
+                                <p> call the Crisis Line at 111-999-000,</p>
+                                <p></p> or Dial 911.</p>
+                        </div>
+                    </div>
+                    <div class="div3b">
+                        <div class="imgdr">
+                            <img src="dr.jpg" alt="Picture of the DOctor">
+                        </div>
+                        <div class="doc-info">
+                            <div class="doc-name">
+                                <h2>Dr. Gastón Medici</h2>
+                            </div>
+                            <div>
+                                <p>Registered Psychologist</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
