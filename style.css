@@ -207,6 +207,10 @@ h1 {
     border-style: solid;
 }
 
+input:focus {
+    border-color: rgb(209, 145, 145);
+}
+
 .appointment {
     width: 100%;
     height: auto;
@@ -222,6 +226,10 @@ textarea {
     border-radius: 10px;
     border-width: 2px;
     border-style: solid;
+}
+
+textarea:focus {
+    border-color: rgb(209, 145, 145);
 }
 
 .commentary-box {
